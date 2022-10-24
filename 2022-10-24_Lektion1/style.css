@@ -1,0 +1,27 @@
+h3 {
+    color: brown;
+}
+
+a:hover {
+    color: green;
+}
+
+a:visited {
+    color: pink;
+}
+
+a:active {
+    color: blue;
+}
+
+.important {
+    background-color: aquamarine;
+}
+
+.location {
+    color: red;
+}
+
+.names {
+    color: violet;
+}
