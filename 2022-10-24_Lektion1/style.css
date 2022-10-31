@@ -1,5 +1,17 @@
+
+/* Darstellung nur für alles */
+:root {
+    font-size: calc(0.5em + 1vw);
+}
+
 h3 {
     color: #a52a2a;
+    text-transform: uppercase;
+}
+
+li {
+    font-size: .8rem;
+    font-variant: small-caps;
 }
 
 a:hover {
@@ -14,6 +26,45 @@ a:active {
     color: rgb(0, 0, 255);
 }
 
+/*******************************/
+
+/* Darstellung nur Index */
+.suesses {
+    background-color: rgb(214, 214, 223);
+    width: 50vw;
+}
+
+.torte {
+    width: 50vw;
+}
+
+.lowercaseText {
+    text-transform: lowercase;
+}
+
+/*******************************/
+
+/* Darstellung nur für History */
+.absatz {
+    color: purple;
+}
+
+.backgroundGray {
+    background-color: gray;
+}
+
+.kursiveSchrift {
+    font-style: italic;
+}
+
+.unterstrichen {
+    text-decoration: underline;
+}
+
+/*******************************/
+
+
+
 .important {
     background-color: aquamarine;
 }
@@ -24,4 +75,5 @@ a:active {
 
 .names {
     color: violet;
+    font-size: calc(0.5em + 1.8vw);
 }
