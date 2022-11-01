@@ -1,10 +1,56 @@
+/* Darstellung für alle */
+a {
+    color: #ff0000;
+}
+
+a:visited {
+    color: #008000;
+}
+
+a:hover {
+    color: #008000;
+    text-transform: uppercase;
+}
+
+a:focus {
+    color: #808080;
+}
+/*******************************/
 
 /* Darstellung nur Index */
-.imageStyle {
+.logoStyle {
     width: 25vw;
 }
 
 .product {
 font-variant: inherit;
+}
+/*******************************/
+
+/* Darstellung nur history */
+.titleHistory {
+    color: #a52a2a;
+}
+
+.imgHistory {
+    width: 12vw;
+}
+
+.name {
+    background-color: #008000;
+    color: #ffffff;
+}
+
+.consortium {
+    text-transform: uppercase;
+}
+
+.spezification {
+    text-decoration: underline;
+}
+
+.css1 {
+    background-color: #0000ff;
+    color: #ffffff;
 }
 /*******************************/
