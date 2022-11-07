@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
 
 /* Darstellung nur für alles */
 :root {
     font-size: calc(0.5em + 1vw);
+    letter-spacing: 0.2em;
+    line-height: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
 }
 
 h3 {
@@ -29,6 +36,10 @@ a:active {
 /*******************************/
 
 /* Darstellung nur Index */
+.suesses p {
+    background-color: yellow;
+}
+
 .suesses {
     background-color: rgb(214, 214, 223);
     width: 50vw;
@@ -40,6 +51,14 @@ a:active {
 
 .lowercaseText {
     text-transform: lowercase;
+}
+
+div ~ a {
+    background-color: red;
+}
+
+#snack p:nth-child(2n) {
+    background-color: yellow;
 }
 
 /*******************************/
@@ -59,6 +78,11 @@ a:active {
 
 .unterstrichen {
     text-decoration: underline;
+}
+
+.ausruecken {
+    text-indent: -2em;
+    margin-left: 2em;
 }
 
 /*******************************/
