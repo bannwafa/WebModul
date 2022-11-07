@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Oswald:wght@600&display=swap');
+:root {
+    font-size: calc(0.5em + 1vw);
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+    line-height: 0.5em;
+    letter-spacing: 0.05em;
+}
+
+h3 {
+    color: brown;
+    text-transform: uppercase;
+}
+
+a:link {
+    color: rgb(0 0 255);
+    /*Blau*/
+    text-decoration: none;
+}
+
+a:visited {
+    color: #008000;
+    /*Grün*/
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: hsl(0 100% 50%);
+    /*Rot*/
+}
+
+span {
+    background-color: aquamarine;
+    font-size: 1.1em;
+}
+
+.place {
+    color: red;
+    font-size: 1.5em;
+}
+
+.names {
+    color: violet;
+    font-size: 1.8em;
+}
+
+.ausruecken {
+    text-indent: -2em;
+    margin-left: 2em;
+}
