@@ -64,8 +64,28 @@ span {
 
 /* Darstellung nur Index */
 
-/* .sweets {
-    list-style-image: url(smiley.png);
-} */
+/*******************************/
+
+/* Darstellung nur Index */
+
+.profession {
+    background-color: blue;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+thead {
+    background-color: aquamarine;
+}
+
+tfoot {
+    background-color: gray;
+}
 
 /*******************************/
