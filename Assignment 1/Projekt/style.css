@@ -55,3 +55,41 @@ font-variant: inherit;
     color: #ffffff;
 }
 /*******************************/
+
+/* Darstellung nur Manager */
+
+.manager {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*******************************/
+
+/* Darstellung nur Arbeiter */
+
+caption {
+    background-color: #DDDDDD;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: #DDFFDD;
+}
+
+tbody {
+    background-color: #FFDDDD;
+}
+
+tfoot {
+    background-color: #DDDDFF;
+}
+
+td {
+    border-color: black;
+    border-style: dashed;
+    border-width: 1px;
+}
+/*******************************/
