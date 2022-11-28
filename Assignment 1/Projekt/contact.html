@@ -17,13 +17,11 @@
    <br>
    <a href="abteilung.html">Abteilung</a>
    <br>
-   <a href="products.html">Produkte</a>
+   <a href="products.html">Meist verkaufte Produkte</a>
    <br>
    <a href="arbeiter.html">Arbeitnehmende</a>
    <h3>KangarooTec LTD</h3>
    <p>40 William Street<br>Sydney, NSW 2000<br>+61 2 9976 8456</p>
-   <br>
-   <br>
    <h1>Bewertung der Verkaufsleitung</h1>
    <form>
     <fieldset>
@@ -40,7 +38,7 @@
         <option value="div">divers</option>
       </select><br>
       <label for="alter">Alter</label><br>
-      <input id="alter" type="text" name="alter" value="0" pattern="(1[89]|[2-9][0-9]|100)"><br>
+      <input id="alter" type="number" name="alter" min="18" max="100" value="0" ><br>
       <label for="mail">Email</label><br>
       <input id="mail" type="email" name="mail" placeholder="Email eingeben" required>
     </fieldset>
@@ -74,7 +72,7 @@
         <option value="schlecht">Schlecht</option>
       </select><br>
       <br>
-      <label for="bemerkung">Bemerkung</label><br>
+      <label for="bemerkung">Bemerkungen</label><br>
       <textarea id="bemerkung" name="bemerkung" cols="50" rows="5"></textarea>
     </fieldset>    
     <br>

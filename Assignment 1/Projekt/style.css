@@ -100,11 +100,11 @@ input:required {
     background-color: #BBBBFF;
 }
 
-#alter:valid {
+input:in-range {
  background-color: green;
 }
 
-#alter:invalid {
+input:out-of-range {
     background-color: red;
    }
 
