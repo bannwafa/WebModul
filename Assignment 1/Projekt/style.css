@@ -93,3 +93,19 @@ td {
     border-width: 1px;
 }
 /*******************************/
+
+/* Darstellung nur Kontakte */
+/* Input gillt natürlich für alle Seiten, wir aber nur hier verwendet */
+input:required {
+    background-color: #BBBBFF;
+}
+
+#alter:valid {
+ background-color: green;
+}
+
+#alter:invalid {
+    background-color: red;
+   }
+
+/*******************************/

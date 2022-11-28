@@ -22,4 +22,63 @@
    <a href="arbeiter.html">Arbeitnehmende</a>
    <h3>KangarooTec LTD</h3>
    <p>40 William Street<br>Sydney, NSW 2000<br>+61 2 9976 8456</p>
+   <br>
+   <br>
+   <h1>Bewertung der Verkaufsleitung</h1>
+   <form>
+    <fieldset>
+      <legend>Personalien</legend>
+      <br>
+      <label for="vorname">Vorname</label><br>
+      <input id="vorname" type="text" name="vorname" placeholder="Vorname eingeben" required><br>
+      <label for="name">Name</label><br>
+      <input id="name" type="text" name="name" placeholder="Name eingeben" required><br>
+      <label for="gender">Geschlecht</label><br>
+      <select name="gender">
+        <option value="man">männlich</option>
+        <option value="wom">weiblich</option>
+        <option value="div">divers</option>
+      </select><br>
+      <label for="alter">Alter</label><br>
+      <input id="alter" type="text" name="alter" value="0" pattern="(1[89]|[2-9][0-9]|100)"><br>
+      <label for="mail">Email</label><br>
+      <input id="mail" type="email" name="mail" placeholder="Email eingeben" required>
+    </fieldset>
+    <fieldset>
+      <legend>Bewertung</legend>
+      <br>
+      <label for="arbeitnehmende">Arbeitnehmende</label><br>
+      <input id="arbeitnehmende" name="arbeitnehmende" list="personen"><br>
+      <datalist id="personen">
+        <option value="John Smith">Verkauf</option>
+        <option value="Ella Harper">Verkauf</option>
+        <option value="Charls Jackson">Verkauf</option>
+        <option value="Wendy Smith">Lager</option>
+        <option value="Anna Harper">Lager</option>
+        <option value="Olivia Mason">Lager</option>
+      </datalist>
+      <br>
+      <label for="dienstleistung">Dienstleistung</label><br>      
+      <input type="checkbox" id="ckbberatung" name="ckbberatung" value="Beratung">
+      <label for="ckbberatung">Beratung</label><br>
+      <input type="checkbox" id="ckbreperatur" name="ckbreperatur" value="Reperatur">
+      <label for="ckbreperatur">Reperatur</label><br>
+      <input type="checkbox" id="ckbproduktkauf" name="ckbproduktkauf" value="Produktkauf">
+      <label for="ckbproduktkauf">Produktkauf</label><br>
+      <br>
+      <label for="bewertung">Bewertung</label><br>
+      <select name="bewertung">
+        <option value="sehrgut">Sehr gut</option>
+        <option value="gut">Gut</option>
+        <option value="durchschnitt">Durchschnitt</option>
+        <option value="schlecht">Schlecht</option>
+      </select><br>
+      <br>
+      <label for="bemerkung">Bemerkung</label><br>
+      <textarea id="bemerkung" name="bemerkung" cols="50" rows="5"></textarea>
+    </fieldset>    
+    <br>
+    <button type="submit">Absenden</button>
+   </form>
+  </body>
 </html> 
