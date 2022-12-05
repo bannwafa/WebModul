@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Oswald:wght@600&display=swap');
+:root {
+    font-size: calc(0.5em + 1vw);
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+    box-sizing: border-box;
+}
+*,
+::before,
+::after {
+ box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+    line-height: 0.5em;
+    letter-spacing: 0.05em;
+}
+
+h3 {
+    color: brown;
+    text-transform: uppercase;
+}
+
+a:link {
+    color: rgb(0 0 255);
+    /*Blau*/
+    text-decoration: none;
+}
+
+a:visited {
+    color: #008000;
+    /*Grün*/
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: hsl(0 100% 50%);
+    /*Rot*/
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #000000;
+}
+
+th {
+    border: 1px solid #000000;
+}
+
+thead {
+    background-color: aquamarine;
+}
+
+tfoot {
+    background-color: grey;
+}
+
+.smiley {
+    list-style-image: url(smiley.png)
+}
+
+.optional {
+    color: #999999
+}
+
+.einfaerben {
+    background-color: blue;
+}
+
+span {
+    background-color: aquamarine;
+    font-size: 1.1em;
+}
+
+.place {
+    color: red;
+    font-size: 1.5em;
+}
+
+.names {
+    color: violet;
+    font-size: 1.8em;
+}
+
+.ausruecken {
+    text-indent: -2em;
+    margin-left: 2em;
+}
+
+/* Nur für Index */
+
+.mainlinks {
+    display: inline-block;
+    background-color: brown;
+    color: white !important;
+    border: black solid 1px;
+    margin-right: 0.5em;
+    width: 10rem;
+}
+
+.submenu {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.submenu:hover>ul {
+    display: block;
+}
+
+.employeelist {
+    position: absolute;
+    top: 0.2em;
+    left: 0;
+    list-style: none;
+    background-color: blue;
+    width: 100%;
+    display: none;
+}
+
+.open {
+    position: fixed;
+    top: 1em;
+    right: 1em;
+}
+
+.modal {
+    display: none;
+}
+
+.modal-backdrop {
+    background-color: white;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.modal-body {
+    position: fixed;
+    top: 3em;
+    bottom: 3em;
+    right: 20%;
+    left: 20%;
+    padding: 3em;
+    background-color: white;
+    overflow: auto;
+    z-index: 1;
+}
+
+#close {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+/* ------------------------------------------------- */
+
+/* Nur für history */
+
+.hImg {
+    float: left;
+    width: 500px;
+    height: 250px;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+h3 {
+    clear: left;
+}
+
+/* ------------------------------------------------- */
+
+/* Nur für employees */
+
+.employeeImg {
+    width: calc(33% - 1em);
+    height: 33vw;
+    float: left;
+
+    border: black solid 1px;
+    padding: 1em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+}
+
+.copyright {
+    clear: left;
+    position: fixed;
+    right: 1em;
+    bottom: 1em;
+}
+
+/* ------------------------------------------------- */
