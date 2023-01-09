@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Oswald:wght@600&display=swap');
+:root {
+    font-size: calc(0.5em + 1vw);
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+}
+
+:root {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+    line-height: 0.5em;
+    letter-spacing: 0.05em;
+}
+
+h3 {
+    color: brown;
+    text-transform: uppercase;
+}
+
+a:link {
+    color: rgb(0 0 255);
+    /*Blau*/
+    text-decoration: none;
+}
+
+a:visited {
+    color: #008000;
+    /*Grün*/
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: hsl(0 100% 50%);
+    /*Rot*/
+}
+
+a.mainlinks {
+    display: inline-block;
+    width: 10em;
+    border: 0.1em solid black;
+    background-color: brown;
+    color: white;
+    padding-left: 0.5em;
+    margin-left: 0.5em;
+    overflow: visible;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #000000;
+}
+
+th {
+    border: 1px solid #000000;
+}
+
+thead {
+    background-color: aquamarine;
+}
+
+tfoot {
+    background-color: grey;
+}
+
+.smiley {
+    list-style-image: url(smiley.png)
+}
+
+.optional {
+    color: #999999
+}
+
+.einfaerben {
+    background-color: blue;
+}
+
+span {
+    background-color: aquamarine;
+    font-size: 1.1em;
+}
+
+.place {
+    color: red;
+    font-size: 1.5em;
+}
+
+.names {
+    color: violet;
+    font-size: 1.8em;
+}
+
+.ausruecken {
+    text-indent: -2em;
+    margin-left: 2em;
+}
+
+img.floatleft {
+    float: left;
+    width: 500px;
+    height: 250px;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+.clearfloat {
+    clear: both;
+}
+
+.imageEmployees {
+    width: calc(33% - 1em);
+    height: 33vw;
+    float: left;
+    border: 1px solid black;
+    padding: 1em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+}
+
+.copyrights {
+    position: fixed;
+    right: 1em;
+    bottom: 1em;
+}
+
+.submenu {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.submenu:hover>ul {
+    display: block;
+}
+
+.employeelist {
+    position: absolute;
+    top: 0.2em;
+    left: 0em;
+    list-style-type: none;
+    background-color: blue;
+    width: 100%;
+    display: none;
+}
+
+#open {
+    position: fixed;
+    top: 1em;
+    right: 1em;
+}
+
+.modal {
+    display: none;
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-body {
+    position: fixed;
+    top: 3em;
+    bottom: 3em;
+    right: 20%;
+    left: 20%;
+    padding: 3em;
+    background-color: white;
+    overflow: auto;
+    z-index: 1;
+}
+
+#close {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+/* Nur für index */
+
+.navigation {
+    display: flex;
+    background-color: #5f4b44;
+}
+
+.navigation > a {
+    color: white;
+    background-color: red;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: 5em;
+}
+/* ------------------------------ */
+
+/* Nur für main */
+
+.flexVertical {
+    display: flex;
+    flex-direction: column;
+    background-color: greenyellow;
+}
+
+.flexVertical > header {
+    min-height: 5em;
+}
+
+.flexHorizontal {
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+}
+
+.navigation1 {
+    min-width: 10em;
+}
+
+.maincontent {
+    flex: content;
+}
+
+/* ------------------------------ */
+
+/* Nur für main2 */
+
+/* Mit Gridline arbeiten */
+/* .gridContainer {
+    display: grid;
+    grid-template-columns: 10em 1fr;
+    grid-template-rows: 5em 1fr 5em;
+    grid-gap: 0.5em;
+}
+
+header {
+    grid-column: 1 / 3;
+    grid-row: span 1;
+} */
+
+
+/* Mit Areas arbeiten */
+.gridContainer {
+    display: grid;
+    grid-template-areas: 
+    'header header'
+    'nav main'
+    'footer footer';
+    grid-gap: 0.5em;
+}
+
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+/* ------------------------------ */
