@@ -1,0 +1,6 @@
+
+/* Allgemeine Styles */
+@Import url('./general.css');
+
+/* Schriftarten  */
+@Import url('./typography.CSS');

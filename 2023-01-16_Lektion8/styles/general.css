@@ -1,0 +1,16 @@
+/* Every Element will inherit the border-box option for the box-sizing */
+
+:root {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+    body {
+        margin: 0;
+        padding: 0;
+    }

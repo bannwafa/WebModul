@@ -1,0 +1,24 @@
+/* GENERAL Options */
+
+@Import url('/styles/general.css');
+
+/* Font faces, weights, line heights, sizes and styles for headings and body text */
+
+@Import url('/styles/typography.css');
+
+/* Layout like Flexbox and Grid */
+
+@Import url('/styles/layouts.css');
+
+/* Forms and Editfields */
+
+@Import url('/styles/forms.css');
+
+/* List-specific styles */
+
+@Import url('/styles/lists.css');
+
+/* Table-specific styles */
+
+@Import url('/styles/tables.css');
+
