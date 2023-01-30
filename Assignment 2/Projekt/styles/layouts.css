@@ -1,0 +1,66 @@
+.gridContainer {
+    display: grid;
+}
+
+.logo {
+    width: 15em;
+    height: auto;
+    grid-column: 1 / 2;
+}
+
+header {
+    grid-column: 2 / 3;
+}
+
+nav {
+    grid-column: 1 / 3;
+    grid-row: 2;
+}
+
+main {
+    grid-column: 1 / 3;
+    grid-row: 3;
+}
+
+footer {
+    grid-column: 1 / 3;
+    grid-row: 4;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation > a {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link {
+    color: var(--color-mainColor);
+}
+
+a:visited {
+    color: var(--color-mainColorMatt);
+}
+
+a:hover {
+    color: var(--color-complementaryColorEdel);
+}
+
+a:active {
+    color: var(--color-complementaryColor);
+}
+
+
+/*Für Produkte-Seite--------------------------*/
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product > img {
+    width: 15em;
+    height: auto;
+}
+/*--------------------------------------------*/

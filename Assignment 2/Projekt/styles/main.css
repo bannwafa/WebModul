@@ -4,3 +4,5 @@
 
 /* Schriftarten  */
 @Import url('./typography.CSS');
+
+@import url(./layouts.css);

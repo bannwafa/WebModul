@@ -7,4 +7,6 @@
     --color-complementaryColorEdel: hsl(44, 74%, 46%);
     --color-backgroundColor: #fffcf5;
     --color-fontColor: #05080a;
+
+    box-sizing: border-box;
 }

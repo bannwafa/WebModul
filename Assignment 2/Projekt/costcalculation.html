@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Swiss Bakery Sydney</title>
+        <link rel="stylesheet" href="styles/main.css">
+        <script type="text/javascript" src="./Logik/calc.js"></script>
+    </head>
+    <body>
+        <div class="navigation">
+            <a href="index.html">Home</a>
+        </div>
+        <form>
+            <h1>Einnahmen</h1>
+            <label for="hauptlohn">Nettolohn Hauptjob:</label>
+            <input id="hauptlohn" class="einnahmen" type="number"><br>
+            <label for="nebenlohn">Nettolohn Nebenjob:</label>
+            <input id="nebenlohn" class="einnahmen" type="number"><br>
+            <label for="einnahmendivers">Diverse Einnahmen:</label>
+            <input id="einnahmendivers" class="einnahmen" type="number"><br>
+            
+            <h1>Kosten</h1>
+            <label for="transport">Transportmittel:</label>
+            <input id="transport" class="ausgaben" type="number"><br>
+            <label for="wohnung">Wohnung:</label>
+            <input id="wohnung" class="ausgaben" type="number"><br>
+            <label for="Lebensmittel">Lebensmittel:</label>
+            <input id="wohnung" class="ausgaben" type="number"><br>
+            <label for="ausgang">Ausgang:</label>
+            <input id="ausgang" class="ausgaben" type="number"><br>
+            <br>
+            Mittel ende Monat: <span id="resultat"></span>
+            <br>
+            
+            <button type="button" onclick="berechne()">Berechne</button>
+            <button type="reset" onclick="reset()">Zurücksetzen</button>
+        </form>
+    </body>
+</html>
