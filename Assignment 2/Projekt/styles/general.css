@@ -1,12 +1,12 @@
 :root {
     box-sizing: border-box;
-    --color-mainColor: #2d327c;
+    --color-mainColor: hsl(236, 47%, 33%);
     --color-mainColorBright: hsl(236, 87%, 73%);
     --color-mainColorMatt: hsl(236, 23%, 50%);
-    --color-complementaryColor: #d2b051;
+    --color-complementaryColor: hsl(44, 59%, 57%);
     --color-complementaryColorEdel: hsl(44, 74%, 46%);
-    --color-backgroundColor: #fffcf5;
-    --color-fontColor: #05080a;
+    --color-backgroundColor: hsl(42, 100%, 98%);
+    --color-fontColor: hsl(204, 33%, 3%);
 
     box-sizing: border-box;
 }
