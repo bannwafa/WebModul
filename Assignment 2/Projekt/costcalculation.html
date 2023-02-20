@@ -11,6 +11,16 @@
         <div class="navigation">
             <a href="index.html">Home</a>
         </div>
+        <br>
+        <button class="button">Standard Button</button>
+        <button class="button button--positiv">Positiver Button</button>
+        <button class="button button--danger">Gefahr Button</button>
+        <button class="button button--reset">Zurücksetzen Button</button>
+        <button class="button button--positiv button--small">Kleiner Positiver Button</button>
+        <button class="button button--positiv button--large">Grosser Positiver Button</button>
+        <br>
+        <br>
+        <br>            
         <form>
             <h1>Einnahmen</h1>
             <label for="hauptlohn">Nettolohn Hauptjob:</label>
@@ -33,8 +43,8 @@
             Mittel ende Monat: <span id="resultat"></span>
             <br>
             
-            <button type="button" onclick="berechne()">Berechne</button>
-            <button type="reset" onclick="reset()">Zurücksetzen</button>
+            <button class="button button--positiv" type="button" onclick="berechne()">Berechne</button>
+            <button class="button button--reset" type="reset" onclick="reset()">Zurücksetzen</button>
         </form>
     </body>
 </html>
