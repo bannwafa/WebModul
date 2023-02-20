@@ -22,7 +22,13 @@ function berechne() {
     document.getElementById("resultat").innerHTML = result.toFixed(2);
 }
 
-function reset() {
-    debugger;
-    document.getElementById("resultat").innerHTML = '123';
+function zuruecksetzen() {
+    var inputs = document.getElementsByTagName("input");
+
+    for (let i = 0; i < inputs.length; i++) {
+        inputs[i].value = '';
+    }
+
+    var result = document.getElementById("resultat");
+    result.innerHTML = '';
 }
